@@ -5,10 +5,10 @@
 using namespace std;
 class Department {
 private:
-    std::string name;
+    string name;
 
 public:
-    Department(const string name);
+    Department( string name);
     string getName();
 };
 

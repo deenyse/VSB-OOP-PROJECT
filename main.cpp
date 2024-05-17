@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     University university;
 
-    // Adding people
+    // Adding people//
     university.addPerson(new Student("Alice", 101,60));
     university.addPerson(new Professor("Bob", 202, university.addDepartment( new Department("Math"))));
     university.addPerson(new Professor("Bob", 203));
