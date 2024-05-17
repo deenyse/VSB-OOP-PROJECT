@@ -4,6 +4,17 @@ Tento projekt má program univerzitního systému řízení. Cílem systému je 
 
 Systém umí přidávat nové studenty, profesory, kurzy a katedry a zobrazovat o nich informace.
 
-# UML Class diagram
+## Spuštění kodu
+
+### Pro snadnou kompilaci projektu jsem vytvořil Makefile, a proto pro kompilací stačí nápsat pouze
+```
+make
+```
+### a pro spuštění 
+```
+./main
+```
+
+##  UML Class diagram
 
 ![ClassDiagram.png](ClassDiagram.png)
